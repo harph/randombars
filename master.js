@@ -33,7 +33,6 @@ function Bar(x, y, width, height, inc) {
 
     this.draw = function(ctx) {
         ctx.beginPath();
-        var backTop = 
         ctx.rect(this.x, y - this.maxHeight, this.width, this.maxHeight - this.minHeight);
         ctx.fillStyle = this.backgroundColor;
         ctx.fill();
